@@ -1,7 +1,33 @@
+@import "~bootstrap/dist/css/bootstrap.css";
 .App {
   text-align: center;
 }
-
+.web_background{
+  background-color: #4F4792;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: cursive;
+}
+.btnPrimary{
+  width: 145px;
+    border-radius: 50px;
+    height: 50px;
+    position: absolute;
+    top: 300px;
+    background-color: #FC8A93;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 17px;
+}
+.web_content{
+  line-height: inherit;
+    font-size: 18px;
+    text-align: justify;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
